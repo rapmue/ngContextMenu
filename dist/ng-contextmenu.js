@@ -211,14 +211,14 @@
                     }
                     
                     scope.$apply(function () {
-                        element.append($scope.menu);
+                        element.append(scope.menu);
                     });
 
                     scope.menu.css({ 
                         display: 'block',
-						position: 'fixed',
-						left: event.clientX + 'px',
-						top: event.clientY + 'px'
+			position: 'fixed',
+			left: event.clientX + 'px',
+			top: event.clientY + 'px'
                     });
 
                     // Memorise the event for re-rendering.
