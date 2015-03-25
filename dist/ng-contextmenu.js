@@ -211,7 +211,7 @@
                     }
                     
                     scope.$apply(function () {
-                        element.append(compiledTemplate);
+                        element.append($scope.menu);
                     });
 
                     scope.menu.css({ 
